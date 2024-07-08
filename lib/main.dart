@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 Future<Uint8List> fetchImage(String inputText) async {
-  final apiKey = '';
+  final apiKey = 'YOUR_API_KEY';
   final url =
       'https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0';
 
