@@ -1,16 +1,31 @@
-# Text-to-Image
+# HuggingFaceTextToImage
 
-A new Flutter project.
+HuggingFaceTextToImage is a Flutter-based application that utilizes HuggingFace's AI models to generate images from text descriptions. This project aims to explore the integration of advanced natural language processing and computer vision capabilities within a mobile application.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+Text-to-Image Generation: Converts text descriptions into images using HuggingFace's state-of-the-art models.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+User-Friendly Interface: Simple and intuitive UI for entering text and viewing generated images.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Cross-Platform Support: Available on both Android and iOS platforms.
+
+
+## Installation
+Flutter SDK: Installation Guide
+
+```bash
+git clone https://github.com/yourusername/HuggingFaceTextToImage.git
+cd HuggingFaceTextToImage
+```
+### Install dependencies:
+```bash
+flutter pub get
+```
+
+### Run the application:
+
+```bash
+flutter run
+```
